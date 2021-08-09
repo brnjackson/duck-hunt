@@ -1,0 +1,28 @@
+{
+  "name": "duck-hunt",
+  "version": "1.0.0",
+  "description": "In the initial commit to this project, you have been provided with a set of user high scores as a JavaScript object. Your task is to implement a Pug driven site that will display the scores as shown in the screenshot below. This exercise will be completed in class.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint:pug && npm run lint:eslint",
+    "lint:pug": "./node_modules/.bin/pug-lint .",
+    "lint:eslint": "./node_modules/.bin/eslint --format codeframe ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://brnjackson@github.com/brnjackson/duck-hunt.git"
+  },
+  "author": "Brittney Jackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brnjackson/duck-hunt/issues"
+  },
+  "homepage": "https://github.com/brnjackson/duck-hunt#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12",
+    "pug-lint": "^2.6.0"
+  }
+}

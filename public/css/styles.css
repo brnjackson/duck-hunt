@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.place {
+    width: 10%;
+}
+
+.initials {
+    width: 40%;
+}
+
+.score {
+    width: 50%;
+}
+
+th {
+    padding: 5px;
+    font-size: 30px;
+}
+
+td {
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
